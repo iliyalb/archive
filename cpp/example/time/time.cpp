@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-#include "Time.h"
+#include "time.h"
 
 Time::Time(int h, int m, int s)
 {

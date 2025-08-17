@@ -1,4 +1,4 @@
-#include "Author.h"
+#include "author.h"
 #include <iostream>
 
 Author::Author(std::string name, std::string email, char gender)
@@ -51,9 +51,9 @@ char Author::getGender() const
 
 void Author::print()
 {
-	std::cout 
-		<< std::endl << "Name: " << name 
-		<< std::endl << "Gender: " << gender 
-		<< std::endl << "Email: " << email 
+	std::cout
+		<< std::endl << "Name: " << name
+		<< std::endl << "Gender: " << gender
+		<< std::endl << "Email: " << email
 		<< std::endl;
 }
